@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "concurrently \"npm run dev-vite\" \"npm run dev-python\"",
+        "dev-vite": "vite",
+        "dev-python": "python public/scan/scan_wajah.py"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.21",
+        "axios": "^1.7.4",
+        "concurrently": "^9.1.2",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^3.4.17",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.6",
+        "chart.js": "^4.5.0"
+    }
+}
